@@ -1,0 +1,25 @@
+body {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#play {
+  background-color: orangered;
+  border: black solid 2px;
+  margin-left: 49%;
+}
+
+#message, #message2 {
+  margin-top: 45px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+}
+
