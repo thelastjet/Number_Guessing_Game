@@ -3,16 +3,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
-}
-
-h1 {
   text-align: center;
 }
 
-#play {
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button {
   background-color: orangered;
   border: black solid 2px;
-  margin-left: 49%;
+  margin-left: 2px;
 }
 
 #message, #message2 {
@@ -21,5 +23,7 @@ h1 {
   font-weight: bold;
   background-color: black;
   text-align: center;
+  max-width: fit-content;
+  display: inline-block;
 }
 

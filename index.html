@@ -7,10 +7,13 @@
   <title>Number Guessing Game</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <h1>Guess a number between 1 and 100!</h1>
-  <button id="play" onclick="favNumber()">Guess</button>
+  <h1>Try to guess the randomly generated number!</h1>
+  <label for="userGuess" id="inputMessage">Please input a number between 1 and 100:</label>
+  <input type="number" onfocus=this.value='' id="userGuess">
+  <button onclick="favNumber()">Guess</button>
+  <br>
   <p id="message"></p>
+  <br>
   <p id="message2"></p>
   <script src="app.js"></script>
 </body>
